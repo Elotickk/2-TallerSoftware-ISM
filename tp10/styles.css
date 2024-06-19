@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.divPrincipal
+{
+    width: 800px;
+    height: 100px;
+    background-color: orange;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.divSecundario
+{
+    width: 600px;
+    height: 400px;
+    background-color: hotpink;
+    margin-left: auto;
+    margin-right: auto;
+}

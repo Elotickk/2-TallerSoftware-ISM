@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de entrada Cine Catamarca</title>
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+</head>
+
+<body>
+    <h1>Gestión de entrada Cine Catamarca</h1>
+
+    <label for="identradavehiculo">Seleccione el tipo de vehículo:</label>
+    <select id="identradavehiculo">
+
+        <option value="5000">Vehiculo - $5000</option>
+        <option value="7000">Camioneta - $7000</option>
+
+    </select>
+    <h2>Cargo por persona $2000 mayores a 6 años</h2>
+    <label for="idcalculopersona"> Indicar cuantas personas entran</label>
+    <input type="number" value="0" min="0" max="6" id="idcalculopersona"></input>
+
+    <br>
+    <br>
+
+    <input type="button" value="Calcular" id="Idbotonpagar">
+
+    <br>
+    <br>
+
+    <h2>(03) Alimentos</h2>
+
+    <select id="idSelectComidas">
+        <option value="3000">BALDE CHICO POCHOCLOS $3.000,00</option>
+        <option value="5000">BALDE GRANDE $5.000,00</option>
+        <option value="8000">BALDE CHICO POCHOCLOS 2 GASEOSAS 1500cm - $8.000,00</option>
+        <option value="14000">BALDE GRANDE 2 GASEOSAS 15000 cm - $14.000,00</option>
+    </select>
+
+    <br>
+    <br>
+
+    <label for="idInputCantidadAlimentos">Indique la Cantidad de Productos</label>
+    <input type="number" value="2" max="10" id="idInputCantidadAlimentos">
+
+    <h2>(04) Bebidas Adicionales</h2>
+
+    <select id="IdSelectBebidas">
+        <option value="4000">AGUA MINERAL 250cm3 $4.000,00</option>
+        <option value="5500">GASEOSA LINEA COCA 250cm3 $5.500,00</option>
+        <option value="5000">GASEOSA LINEA PEPSI 250cm3 $5.000,00</option>
+    </select>
+
+    <br>
+    <br>
+    <label for="idInputCantidadBebidas">Indique la Cantidad de Productos</label>
+    <input type="number" value="2" max="10" id="idInputCantidadAlimentos">
+    <button>Buscar</button>
+
+
+    <h2>(05) Calcular total a pagar</h2>
+    <label for="">Paga con un %10 descuento NATIVA</label>
+    <input type="checkbox" name="" id="idCheckboxNativa">
+
+    <div id="idcalculartotal">El total a pagar: </div>
+        
+
+    <script src="main.js"></script>
+</body>
+
+</html>

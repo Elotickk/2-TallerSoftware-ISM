@@ -1,0 +1,44 @@
+.nav{
+    display: inline;
+    position: fixed;
+    left: auto;
+    top: 0px;
+    bottom: auto;
+    width: 100%;
+    z-index: 999;
+    border-style: none;
+    border-width: 0px;
+    background: #5A645F;
+}
+
+ul {
+    padding: 0;
+}
+
+li { 
+    display: inline;
+    width: 14%;
+    float: left;
+    background-color: none;
+    text-align: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    display: inline;
+    max-width: 50px;
+    max-height: 50px;
+    border: 3px solid blue;
+    border-radius: 0px;
+    border-style: none;
+    
+}
+div{
+    background-image: url(main.jpeg);
+    width: 900px;
+    height: 1000px;
+}

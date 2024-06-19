@@ -1,0 +1,31 @@
+button{
+    color:red;
+    background-color: black;
+    border-style: solid;
+    border-color:black;
+
+}
+
+div{
+    margin-bottom: 3px;
+}
+
+.boton1{
+    background-color: blue;
+}
+
+.boton2{
+    background-color: red;
+}
+
+.boton3{
+    background-color: green;
+}
+
+.boton4{
+    background-color: cyan;
+}
+
+.boton5{
+    background-color: deeppink;
+}

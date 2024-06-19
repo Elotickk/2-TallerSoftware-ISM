@@ -1,0 +1,11 @@
+1) Modulos con ECMASCRIP 2015
+    Es almacenar codigo y agrupar codigo en otros archivos
+    -Clases
+    -Objetos
+    -Funciones
+    -Vectores
+    
+2) Asincronismo
+    Funciones CallBack
+    Promesas
+    Async & Await

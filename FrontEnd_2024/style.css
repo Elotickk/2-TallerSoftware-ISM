@@ -1,0 +1,18 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+
+.table{
+    background-color: black;
+    color: white;
+    border-color: red;
+}
+
+body{
+    background-color: black;
+}

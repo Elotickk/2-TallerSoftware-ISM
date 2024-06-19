@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: red;
+    font-size: medium;
+}
+div{
+    width: 1000px;
+    height: 1000px;
+    background-color: black;
+}
+
+.Color{
+    color: aliceblue;
+}

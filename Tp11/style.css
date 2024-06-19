@@ -1,0 +1,32 @@
+div{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.calculadora2{
+    background-color: red;
+}
+
+.input{
+    width: 10rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    padding: 1rem;
+}
+
+.operaciones{
+    flex-direction: row;
+}
+
+.calcular{
+    margin: 1rem;
+    padding: 1rem;
+}
